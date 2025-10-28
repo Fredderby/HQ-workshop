@@ -3,12 +3,11 @@ from feedback import hq_feedback
 from connect import cred
 
 # Set page configuration
-st.set_page_config(page_title="GCK Report App", page_icon="✍️", layout="centered")
+st.set_page_config(page_title="Workshop App", page_icon="✍️", layout="centered")
 
 with st.container(border=True):  
 # Header and section selector
-    # st.image('./media/Mission.jpg')
-    st.divider()
+    st.image('./media/workshop.jpg')
  
     # Section selection
     # sections = st.selectbox("**SECTION OPTIONS**", ["Post Mission's], key="sect12")
