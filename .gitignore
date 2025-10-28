@@ -1,14 +1,41 @@
-# Environment files
+# ===============================
+# Environment & Credential Files
+# ===============================
 .env
 .env.*
 *.env
 
-# Virtual environment
+# Prevent accidentally pushing any key or config files
+*.pem
+*.key
+*.json
+*.crt
+credentials/
+secrets/
+
+# ===============================
+# Virtual Environments
+# ===============================
 env/
 venv/
 ENV/
 
-# Python cache
+# ===============================
+# Python Cache and Bytecode
+# ===============================
 __pycache__/
 *.py[cod]
 *$py.class
+
+# ===============================
+# IDE / Editor Files
+# ===============================
+.vscode/
+.idea/
+
+# ===============================
+# Logs and Outputs
+# ===============================
+*.log
+logs/
+tmp/
